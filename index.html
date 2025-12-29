@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="pt-pt" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PGDEM - Gestão do Desporto Escolar de Malanje</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#c01b58',
+              'primary-dark': '#991546',
+              'secondary': '#1e3a8a',
+              'background-light': '#f0f2f5',
+              'surface-light': '#ffffff',
+            },
+            fontFamily: {
+              'display': ['Lexend', 'sans-serif'],
+              'body': ['Noto Sans', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Lexend', sans-serif;
+        background: linear-gradient(135deg, #f8f6f7 0%, #fef2f7 100%);
+        min-height: 100vh;
+      }
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "react": "https://esm.sh/react@^19.2.3"
+      }
+    }
+    </script>
+  </head>
+  <body class="text-[#171114]">
+    <div id="root"></div>
+  </body>
+</html>
